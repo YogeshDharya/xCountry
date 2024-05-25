@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  
+  .country-card {
+    height: 130px;
+    width: 130px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 3%;
+    text-align: center;
+  }
+  /* h1{
+    display: block;
+  } */
+  .heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  
+  
+  }
+  .flag-image {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .country-name {
+    font-weight: bold;
+  }
